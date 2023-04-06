@@ -5,7 +5,7 @@ function Team() {
     return (
         <div id="team" className={styles.team}>
             <h1>Our Team</h1>
-            <p>NagatoStudio can't exist without theses people.</p>
+            <p>NagatoStudio can&apos;t exist without theses people.</p>
             <div className={styles.team_container}>
                 <div className={styles.team_member}>
                     <img src="https://avatars.githubusercontent.com/u/54537867?v=4" alt="Nagato" />
