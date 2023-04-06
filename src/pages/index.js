@@ -4,6 +4,9 @@ import Nav from '@/pages/components/Navbar'
 import Main from '@/pages/components/Main'
 import About from '@/pages/components/About'
 import Team from '@/pages/components/Team'
+import Contact from '@/pages/components/Contact'
+
+
 export default function Home() {
   return (
     <>
@@ -18,6 +21,9 @@ export default function Home() {
           <Main />
           <About />
           <Team />
+          <Contact />
+          <p>2020-2023 Elon Musk</p>
+          <p>All Rights Reserved</p>
       </main>
     </>
   )

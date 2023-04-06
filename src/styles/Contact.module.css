@@ -1,0 +1,17 @@
+.contact{
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.contact h1{
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.contact p{
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
