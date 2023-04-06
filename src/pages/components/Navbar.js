@@ -7,12 +7,12 @@ function Nav() {
         <nav className={styles.navbar}>
             <h1><Link href="/">NagatoStudio</Link></h1>
             <ul>
-                <li><Link href="/">Home</Link></li>
-                <li><Link href="#services">Our Services</Link></li>
-                <li><Link href="#team">Our Team</Link></li>
-                <li><Link href="#about">About</Link></li>
-                <li><Link href="#contact">Contact</Link></li>
-                <li><Link href="/join">Join Us</Link></li>
+                <Link href="/"><li>Home</li></Link>
+                <Link href="#services"><li>Our Services</li></Link>
+                <Link href="#team"><li>Our Team</li></Link>
+                <Link href="#about"><li>About</li></Link>
+                <Link href="#contact"><li>Contact</li></Link>
+                <Link href="/join"><li>Join Us</li></Link>
             </ul>
         </nav>
     );

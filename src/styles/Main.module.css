@@ -1,0 +1,41 @@
+.backboard{
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    border: 0;
+    z-index: -1;
+    padding: 10vw;
+    margin: 0;
+}
+
+.titlebox{
+    position: relative;
+    display: block;
+}
+
+.index_subtitle{
+    font-size: 3rem;
+}
+.index_title {
+    background-image: linear-gradient(65deg, #23efc0, #23c0ef);
+    -webkit-background-clip: text;
+    font-size: 5rem;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    animation: gradientBackboard 15s ease infinite;
+}
+
+@keyframes gradientBackboard {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
