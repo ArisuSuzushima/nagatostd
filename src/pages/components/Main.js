@@ -1,4 +1,3 @@
-import Head from 'next/head'
 import styles from '@/styles/Main.module.css'
 
 function Main(){
