@@ -17,9 +17,9 @@ export default function Join() {
                 <h1>加入我们</h1>
                 <form action="https://filecdn.codereservice.top/submit.php" method="POST">
                 <p>你的名字</p>
-                <input type="text" id="name" required/>
+                <input type="text" name="name" required/>
                 <p>你的性别</p>
-                <select id="gender" required>
+                <select name="gender" required>
                     <option value="男">男</option>
                     <option value="女">女</option>
                     <option value="非二元">非二元</option>
@@ -28,13 +28,13 @@ export default function Join() {
                     <option value="沃尔玛购物袋">沃尔玛购物袋</option>
                 </select>
                 <p>你的邮箱</p>
-                <input type="text" id="email" required/>
+                <input type="text" name="email" required/>
                 <p>你的QQ</p>
-                <input type="text" id="qq" required/>
+                <input type="text" name="qq" required/>
                 <p>你是从哪里知道我们的</p>
-                <input type="text" id="from" required/>
+                <input type="text" name="from" required/>
                 <p>你的技能</p>
-                <input type="text" id="skill" required/>
+                <input type="text" name="skill" required/>
                 <button type="submit">提交</button>
                 </form>
                 <p>您的所有信息都不会被加密，并且会以明文的形式传输，NagatoStudio会向其合作机构提供您的全部信息，以便更好地泄露您的信息</p>
