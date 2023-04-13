@@ -10,12 +10,12 @@
   },
   "dependencies": {
     "@next/font": "13.2.4",
-    "eslint": "8.37.0",
-    "eslint-config-next": "13.2.4",
+    "eslint": "^8.37.0",
+    "eslint-config-next": "^13.2.4",
     "google-fonts": "^1.0.0",
     "mdui": "^1.0.2",
-    "next": "13.2.4",
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "next": "^13.2.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   }
 }
