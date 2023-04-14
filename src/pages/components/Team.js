@@ -47,6 +47,22 @@ function Team() {
                     <p>Pronouns: He but She</p>
                     <p>Website: Meow://MeowMeowMeow.Meow/</p>
                 </div>
+                <div className={styles.team_member}>
+                    <img src="/4.png" alt="Nagato" />
+                    <h2>Nagato&apos;s Cat #4</h2>
+                    <p>Developer</p>
+                    <p>Programming Languages: Meow</p>
+                    <p>Pronouns: She/Her</p>
+                    <p>Website: Meow://MeowMeowMeow.Meow/</p>
+                </div>
+                <div className={styles.team_member}>
+                    <img src="/5.png" alt="Nagato" />
+                    <h2>Nagato&apos;s Cat #5</h2>
+                    <p>Developer</p>
+                    <p>Programming Languages: Meow</p>
+                    <p>Pronouns: She/Her</p>
+                    <p>Website: Meow://MeowMeowMeow.Meow/</p>
+                </div>
             </div>
         </div>
     );
